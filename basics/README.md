@@ -51,3 +51,7 @@ Changes the working directory to the previous one.
 ## 11-lists
 
 Lists all files (even hidden) in the current directory, and the parent of the working directory and the `/boot` directory (in that order) in long format.
+
+## 12-file_type
+
+Prints the type of the file named `iamafile`. The file `iamafile` will be in the `/tmp` directory when we will run your script.
