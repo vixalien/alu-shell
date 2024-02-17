@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Stops the infinity process elegantly
+pkill -f -SIGKILL "7-highlander"
