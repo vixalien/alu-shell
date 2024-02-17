@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Kill the infinity process
+PIDS=$(pgrep -la bash | grep '4-to_infinity_and_beyond' | cut -f 1 -d' ')
+for PID in $PIDS
+do
+  kill "$PID"
+done
